@@ -1,0 +1,131 @@
+.form-container {
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wraper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-wraper form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.form-wraper span {
+
+    color: #5d5b8d;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form-wraper input {
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #a7bcff;
+    padding: 15px;
+
+    &::placeholder {
+        color: rgb(175, 175, 175);
+    }
+}
+
+.form-wraper button {
+    background-color: #7b96ec;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.form-wraper p {
+    color: #5d5b8d;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.form-wraper label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8da4f1;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.form-wraper label img {
+    width: 32px;
+}
+
+.home {
+background-color: #a7bcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.home-container {
+
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+}
+
+.contact-container {
+    flex: 1;
+    border-right: 1px solid #3e3c61;
+    background-color: #3e3c61;
+    position: relative;
+}
+.chat-container{
+    flex: 2;
+}
+@media only screen and (max-width: 480px) {
+    .home-container{
+        flex-direction: column;
+    }
+   .chat-container{
+    display: none;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .home-container{
+       width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-container{
+        flex-direction: column;
+    }
+   .chat-container{
+    display: none;
+   }
+}
+
+
+
+.input {
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+}
+

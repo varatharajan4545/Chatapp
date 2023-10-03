@@ -1,0 +1,21 @@
+
+ .chat-info {
+    height: 50px;
+    background-color: #5d5b8d;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    color: lightgray;
+}
+
+ .chat-info .chat-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.chat-info .chat-icons img{
+    height: 24px;
+    cursor: pointer;
+}
+
