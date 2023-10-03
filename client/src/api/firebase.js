@@ -13,12 +13,7 @@ import { arrayUnion, Timestamp } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC8LWCKgYkgIr2ArLsTE2UU1GOV4fH1g90",
-  authDomain: "mychat-c2507.firebaseapp.com",
-  projectId: "mychat-c2507",
-  storageBucket: "mychat-c2507.appspot.com",
-  messagingSenderId: "177909709778",
-  appId: "1:177909709778:web:cc7c12270f2edf853f260b"
+ 
 };
 
 // Initialize Firebase
